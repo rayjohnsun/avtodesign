@@ -1,0 +1,19 @@
+.my-table {
+	width: 100%;
+}
+.my-table thead th {
+	color: #222222;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.my-table tbody td {
+	border-top: 1px solid #edf3fd;
+	padding: 10px 0;
+}
+.genric-btn {
+	line-height: 37px;
+}
+.my-table .button-group-area .genric-btn {
+	margin-top: 0;
+}
