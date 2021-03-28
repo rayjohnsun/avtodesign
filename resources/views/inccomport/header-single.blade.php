@@ -22,12 +22,7 @@
 	</div>
 	<div class="page-title text-center">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-6 offset-md-3">
-					<h2>About Us</h2>
-					<p>There spirit beginning bearing the open at own every give appear in third you sawe two boys</p>
-				</div>
-			</div>
+			@yield('top')
 		</div>
 	</div>
 </header>

@@ -41,7 +41,8 @@
 			</div>
 			<div>
 				<div style="width: 200px;">
-					@if($model->image_path) <img style="width: 100%;" src="/{{ $model->image_path }}" alt="">
+					@if($model->image_path) 
+						<img style="width: 100%;" src="/{{ $model->image_path }}" alt="">
 					@endif
 				</div>
 			</div>

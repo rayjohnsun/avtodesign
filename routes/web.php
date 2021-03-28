@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [App\Http\Controllers\IndexController::class, 'index'])->name('index');
+Route::get('/search', [App\Http\Controllers\IndexController::class, 'search'])->name('index_search');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/site', [App\Http\Controllers\SiteController::class, 'index'])->name('site_home');

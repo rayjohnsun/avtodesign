@@ -43,7 +43,11 @@
 
 			@guest
 
-				@include('inccomport.header')
+				@if(Request::is('/'))
+					@include('inccomport.header')
+				@else
+					@include('inccomport.header-single')
+				@endif
 
 			@else
 

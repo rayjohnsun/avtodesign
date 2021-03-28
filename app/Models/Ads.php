@@ -11,10 +11,12 @@ class Ads extends Model
 
   const UZS = 'UZS';
   const USD = 'USD';
+  const EUR = 'EUR';
 
   public static $currencies = [
     ['value' => self::UZS, 'text' => 'Узбекский сум', 'title' => 'сум', 'prefix' => ''],
     ['value' => self::USD, 'text' => 'Доллар США', 'title' => 'доллар', 'prefix' => '$'],
+    ['value' => self::EUR, 'text' => 'Евро', 'title' => 'Евро', 'prefix' => ''],
   ];
 
   const StatusNew = 0;
